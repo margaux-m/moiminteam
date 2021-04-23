@@ -1,0 +1,48 @@
+footer {
+  border-top: 2px solid $gray;
+  padding: 10px 20px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: $orange;
+  color: $gray;
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .logo-footer {
+    width: 80px;
+    margin: 20px 0 10px 0;
+  }
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  img {
+    width: 1.4rem;
+    margin-left: 10px;
+    vertical-align: baseline;
+  }
+  a {
+    position: relative;
+  }
+}
+
+.footer-link:hover {
+  opacity: 0;
+}
+
+.footer-link-hover {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.25s ease-out;
+  &:hover {
+    opacity: 1;
+  }
+}
