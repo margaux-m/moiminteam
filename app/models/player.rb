@@ -6,4 +6,7 @@ class Player < ApplicationRecord
 
   has_many :results, dependent: :destroy
   has_many :trainings, through: :results
+
+  validates :name, :email, :encrypted_password, presence: true
+  validates :email, format: { with: Devise.email_regexp }
 end
