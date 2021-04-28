@@ -1,0 +1,20 @@
+.btn-orange {
+  background-color: $gray;
+  border: 2px solid $gray;
+  color: white;
+  &:hover {
+    background-color: black;
+    border: 2px solid black;
+  }
+}
+
+.btn-outline-orange {
+  background-color: $orange;
+  border: 2px solid $gray;
+  color: $gray;
+  &:hover {
+    background-color: $gray;
+    border: 2px solid $gray;
+    color: white;
+  }
+}
