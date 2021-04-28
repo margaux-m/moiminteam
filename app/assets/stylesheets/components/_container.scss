@@ -1,0 +1,13 @@
+.container-home {
+  padding: 10px 20px;
+  min-height: 90vh;
+  background-color: $orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  h1 {
+    font-size: 7rem;
+    text-align: right;
+  }
+}

@@ -1,5 +1,8 @@
-<% if player_signed_in? %>
-  <h1>Welcome <%= current_player.name %></h1>
-<% else %>
-  <h1>Keep the móiminteam. Log in for more.</h1>
-<% end %>
+<div class="container-home">
+  <% if player_signed_in? %>
+    <h1>Welcome <%= current_player.name %></h1>
+  <% else %>
+    <h1>Keep the<br>móiminteam.</h1>
+    <h2>Sign in for more.</h2>
+  <% end %>
+</div>
