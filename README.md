@@ -5,3 +5,5 @@
 Móiminteam is an app built with Ruby on Rails for Belgium Gaelic Games association.
 
 The app's is made the players of the club to help them in their physical preparation and improve it thoughout the season.
+
+![Móiminteam Home]('/assets/images/moiminteam-home.png', "Móiminteam Homepage")
