@@ -1,24 +1,7 @@
-# README
+# Móiminteam
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Note: this is **work in progress**.*
 
-Things you may want to cover:
+Móiminteam is an app built with Ruby on Rails for Belgium Gaelic Games association.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The app's is made the players of the club to help them in their physical preparation and improve it thoughout the season.
