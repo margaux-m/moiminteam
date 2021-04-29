@@ -3,6 +3,6 @@
   <% if player_signed_in? %>
     <%= link_to 'Sign out', destroy_player_session_path, :method => :delete, class: "btn btn-primary btn-outline-orange" %>
   <% else %>
-    <%= link_to 'Sign in', player_session_path, class: "btn btn-primary btn-orange" %>
+    <%= link_to 'Sign in', player_session_path, class: "btn btn-primary btn-black" %>
   <% end %>
 </nav>

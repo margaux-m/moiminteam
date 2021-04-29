@@ -1,4 +1,8 @@
-.btn-orange {
+.btn {
+  font-style: normal;
+}
+
+.btn-black {
   background-color: $gray;
   border: 2px solid $gray;
   color: white;
@@ -16,5 +20,14 @@
     background-color: $gray;
     border: 2px solid $gray;
     color: white;
+  }
+}
+
+.btn-rounded {
+  border-radius: 25px;
+  padding: 10px 30px;
+  &:hover {
+    background-color: $orange;
+    border: 2px solid $orange;
   }
 }
