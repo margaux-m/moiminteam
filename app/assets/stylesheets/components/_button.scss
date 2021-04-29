@@ -2,6 +2,7 @@
   font-style: normal;
 }
 
+// Button solid
 .btn-black {
   background-color: $gray;
   border: 2px solid $gray;
@@ -12,8 +13,8 @@
   }
 }
 
-.btn-outline-orange {
-  background-color: $orange;
+// Button outline
+.btn-outline {
   border: 2px solid $gray;
   color: $gray;
   &:hover {
@@ -23,11 +24,28 @@
   }
 }
 
+.btn-outline-black {
+  background: none;
+}
+
+.btn-outline-orange {
+  background-color: $orange;
+}
+
+// Button rounded
 .btn-rounded {
   border-radius: 25px;
   padding: 10px 30px;
+}
+
+.btn-rounded-orange {
   &:hover {
     background-color: $orange;
     border: 2px solid $orange;
   }
+}
+
+// Button margin
+.btn-margin-left {
+  margin-left: 10px;
 }
