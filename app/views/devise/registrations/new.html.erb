@@ -8,6 +8,12 @@
     <%= f.error_notification %>
 
     <div class="form-inputs">
+      <%= f.input :name,
+                  required: true,
+                  autofocus: true %>
+      <%= f.input :photo,
+                  hint: ("Feel free to add a personalised picture for your profile. It's not mandatory!"),
+                  as: :file %>
       <%= f.input :email,
                   required: true,
                   autofocus: true,
