@@ -23,11 +23,12 @@
                   required: true,
                   input_html: { autocomplete: "new-password" } %>
       <%= f.input :photo,
-                  input_html: { class: 'd-none'},
+                  input_html: { class: 'd-none', id: 'photo-input' },
                   label_html: { class: 'upload-photo'},
-                  label: '📷 Upload a photo',
+                  label: '📷 Upload an avatar picture',
                   hint: ("Feel free to add a personalised picture for your profile. It's not mandatory!"),
                   as: :file %>
+      <%= image_tag "", width: 300, class: "hidden", id: "photo-preview" %>
     </div>
 
     <div class="form-actions">

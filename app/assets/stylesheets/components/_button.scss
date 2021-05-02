@@ -49,16 +49,3 @@
 .btn-margin-left {
   margin-left: 10px;
 }
-
-/* Upload photo button */
-.upload-photo {
-  border: 1px solid #d3d3d3;
-  padding: 16px 24px;
-  cursor: pointer;
-  background: white;
-  border-radius: 2px;
-  transition: ease-out 0.5s;
-  &:hover {
-    background-color: #d3d3d3;
-  }
-}
