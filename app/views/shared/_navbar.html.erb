@@ -1,7 +1,7 @@
 <nav>
   <h1><%= link_to 'móiminteam', root_path, id: "logo-navbar" %></h1>
   <% if player_signed_in? %>
-    <%= link_to 'Sign out', destroy_player_session_path, :method => :delete, class: "btn btn-primary btn-outline-orange" %>
+    <%= link_to 'Sign out', destroy_player_session_path, :method => :delete, class: "btn btn-primary btn-outline btn-outline-black" %>
   <% else %>
     <%= link_to 'Sign in', player_session_path, class: "btn btn-primary btn-black" %>
   <% end %>
